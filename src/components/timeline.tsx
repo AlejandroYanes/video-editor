@@ -3,10 +3,10 @@
 import type React from "react"
 
 import { useState, useRef, useEffect } from "react"
-import type { Track } from "@/src/lib/types"
+import type { Track } from "@/lib/types"
 import { Scissors, Trash2 } from "lucide-react"
-import { Button } from "@/src/components/ui/button"
-import { cn } from "@/src/lib/utils"
+import { Button } from "@/components/ui/button"
+import { cn } from "@/lib/utils"
 
 interface TimelineProps {
   tracks: Track[]

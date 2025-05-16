@@ -1,4 +1,4 @@
-import VideoEditor from "@/src/components/video-editor"
+import VideoEditor from "@/components/video-editor"
 
 export default function Home() {
   return (

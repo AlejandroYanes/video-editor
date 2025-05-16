@@ -1,7 +1,7 @@
 "use client"
 
 import { forwardRef, useEffect, useImperativeHandle, useRef } from "react"
-import { type Track, TrackType } from "@/src/lib/types"
+import { type Track, TrackType } from "@/lib/types"
 
 interface VideoPreviewProps {
   tracks: Track[]

@@ -3,12 +3,12 @@
 import type React from "react"
 
 import { useState, useRef, useEffect } from "react"
-import { Button } from "@/src/components/ui/button"
+import { Button } from "@/components/ui/button"
 import { Upload, Play, Pause, Save, Music } from "lucide-react"
-import { Progress } from "@/src/components/ui/progress"
-import Timeline from "@/src/components/timeline"
-import VideoPreview from "@/src/components/video-preview"
-import { type Track, TrackType, type TrackSegment } from "@/src/lib/types"
+import { Progress } from "@/components/ui/progress"
+import Timeline from "@/components/timeline"
+import VideoPreview from "@/components/video-preview"
+import { type Track, TrackType, type TrackSegment } from "@/lib/types"
 
 export default function VideoEditor() {
   const [isPlaying, setIsPlaying] = useState(false)
